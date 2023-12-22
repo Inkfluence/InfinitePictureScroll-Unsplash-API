@@ -34,3 +34,22 @@ background: rgba(255,255,255,0.6);
     left:50%;
     transform: translate(-50%,-50%);
 }
+/* image container */
+.image-container{
+  margin: 10px 25%;  
+
+}
+.image-container img{
+     width: 100%;
+     margin-top: 4%;
+}
+
+/* media query : llarge smartphones  */
+@media screen and (max-width:600px){
+h1{
+    font-size: 12px;
+}
+.image-container{
+    margin: 10px;
+}
+}
